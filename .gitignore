@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.zip
+design/pacote-verificado/
+design/hosted-*
+design/*validation.json
+design/check-*.cjs
+design/measure-performance.cjs
+design/font-source/
+design/*.jpg
+design/*.png
+!design/desktop-final.png
+!design/mobile-full.png
