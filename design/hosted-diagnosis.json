@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "failures": [
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/hero_image.webp",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/section2_image.webp",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/favicon.svg",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/section3_img1.webp",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/section3_img2.webp",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/section3_bg.webp",
+      "status": 404
+    },
+    {
+      "url": "https://papayawhip-marten-581888.hostingersite.com/img/section2_image.webp",
+      "status": 404
+    }
+  ],
+  "headings": [
+    "Seu sorriso.Sua melhorversão.",
+    "A gente cuida dos dentes.E de quem está por trás do sorriso.",
+    "Naturalmentevocê.",
+    "Facetasdentárias",
+    "Coroasdentárias",
+    "Clareamentodental",
+    "Implantesdentários",
+    "Volte a sorrirpor inteiro.",
+    "O primeiro passo éuma boa conversa.",
+    "Escutar. Planejar.Cuidar de você.",
+    "Uma conversa de verdade",
+    "Um plano que faz sentido",
+    "Presença em cada etapa",
+    "Antes de sorrir,vamos conversar?",
+    "Como funciona a primeira consulta?+",
+    "Quais tratamentos a Dentora oferece?+",
+    "Posso conhecer a clínica antes de decidir?+",
+    "Como funciona o agendamento neste site?+",
+    "As fotos mostram pacientes reais da Dentora?+",
+    "Seu próximo sorrisocomeça aqui."
+  ]
+}

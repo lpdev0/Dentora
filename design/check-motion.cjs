@@ -1,0 +1,20 @@
+const { chromium } = require('C:/Users/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const { pathToFileURL } = require('node:url');
+const path = require('node:path');
+(async () => {
+  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' });
+  await page.goto(pathToFileURL(path.resolve('dist/index.html')).href, { waitUntil: 'load' });
+  await page.locator('.splash').waitFor({ state: 'detached' });
+  const entrance = await page.locator('.feature-bar>span').first().evaluate(el => getComputedStyle(el).animationName);
+  await page.locator('#clinica').scrollIntoViewIfNeeded();
+  await page.locator('.about-grid.visible').waitFor();
+  const reveal = await page.locator('.about-grid').evaluate(el => getComputedStyle(el).transitionProperty);
+  await page.locator('#duvidas').scrollIntoViewIfNeeded();
+  await page.getByRole('button', { name: 'Quais tratamentos a Dentora oferece?' }).click();
+  const accordion = await page.locator('.faq-item.open .faq-answer').evaluate(el => getComputedStyle(el).transitionProperty);
+  const results = { entrance, reveal, accordion, preserved: entrance.includes('fade-up') && reveal.includes('opacity') && accordion.includes('grid-template-rows') };
+  console.log(JSON.stringify(results));
+  await browser.close();
+  if (!results.preserved) process.exitCode = 1;
+})().catch(e => { console.error(e); process.exit(1) });

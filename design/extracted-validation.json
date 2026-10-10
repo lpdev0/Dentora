@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "css": "fixed",
+  "overflow": false,
+  "galleryPhoto": true,
+  "requiredValidation": true,
+  "noPrematureSuccess": true,
+  "booking": true,
+  "focusRestored": true,
+  "localImages": true
+}

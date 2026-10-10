@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "desktopOverflow": false,
+  "images": [
+    {
+      "src": "/img/section3_img1.webp",
+      "loaded": true
+    },
+    {
+      "src": "/img/section3_img2.webp",
+      "loaded": true
+    },
+    {
+      "src": "/img/section3_bg.webp",
+      "loaded": true
+    }
+  ],
+  "fonts": true,
+  "booking": "✓\n\nVocê concluiu a demonstração de agendamento.\n\nTratamento\nAvaliação inicial\nPreferência de data\n10/12/2026\nPeríodo\nManhã\n\nNenhuma consulta foi marcada. Suas escolhas não foram enviadas nem armazenadas.\n\nExperimentar novamente",
+  "faq": "Não. A Dentora é uma clínica fictícia criada para um projeto de portfólio. As imagens são ilustrativas e não representam pacientes, equipe ou resultados de tratamentos da clínica.",
+  "overflow320": false,
+  "overflow390": false,
+  "overflow768": false,
+  "overflow1024": false,
+  "overflow1920": false,
+  "menuClosed": true,
+  "privacy": true,
+  "reducedMotion": true,
+  "notFound": true
+}
